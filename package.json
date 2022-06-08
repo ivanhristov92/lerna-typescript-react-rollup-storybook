@@ -1,0 +1,10 @@
+{
+  "name": "@vt/monorepo",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^5.1.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

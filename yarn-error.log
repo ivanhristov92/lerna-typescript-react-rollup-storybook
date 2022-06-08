@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Ma3x\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install --mutex network:42424 --non-interactive
+
+PATH: 
+  C:\Users\Ma3x\Downloads\WINDOWS.X64_193000_db_home\bin;C:\Users\Ma3x\Downloads\WINDOWS.X64_213000_db_home\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Microsoft\Azure Functions Core Tools\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Users\Ma3x\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Genymobile\Genymotion\tools;C:\Program Files\PostgreSQL\13\bin;C:\Users\Ma3x\AppData\Local\Programs\Python\Python38;C:\Program Files\Git\bin;C:\Users\Ma3x\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin;C:\Users\Ma3x\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "name": "root",
+    "private": true,
+    "devDependencies": {
+      "lerna": "^5.1.0"
+    },
+    "workspaces": [
+      "packages/*"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

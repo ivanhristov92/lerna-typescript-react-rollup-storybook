@@ -1,0 +1,36 @@
+{
+  "name": "component1",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Ivan Hristov <ivan_hristov@mail.bg>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "rollup -c",
+    "dev": "tsc -w"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.2",
+    "@types/react": "^18.0.12",
+    "react": "^18.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "rollup-plugin-dts": "^4.2.2"
+  }
+}
