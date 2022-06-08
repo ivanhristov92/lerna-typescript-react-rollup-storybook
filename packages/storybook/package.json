@@ -1,5 +1,5 @@
 {
-  "name": "@ivanhristov/storybook",
+  "name": "ivanhristovstorybook",
   "version": "0.1.1",
   "description": "> TODO: description",
   "author": "Ivan Hristov <ivan_hristov@mail.bg>",
@@ -34,5 +34,5 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   },
-  "gitHead": "c311df3e8f68be5f1dd0b07750f7bc3a020c682b"
+  "gitHead": "d275505ba004d2e476556bc72b5e005f7e042c58"
 }
