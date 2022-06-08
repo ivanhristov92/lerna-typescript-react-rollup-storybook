@@ -1,5 +1,5 @@
 {
-  "name": "component1",
+  "name": "@ih/component1",
   "version": "0.1.0",
   "description": "> TODO: description",
   "author": "Ivan Hristov <ivan_hristov@mail.bg>",
@@ -32,5 +32,6 @@
   },
   "dependencies": {
     "rollup-plugin-dts": "^4.2.2"
-  }
+  },
+  "gitHead": "f1441f97866484663d9bd8d75ac77eee691096bc"
 }
